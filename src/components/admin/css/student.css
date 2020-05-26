@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+.fa-trash-alt {
+    color: red;
+}
+.fa-edit {
+    color: yellowgreen;
+}
+.header-crud {
+    display: flex;
+    justify-content: space-around;
+}

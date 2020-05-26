@@ -1,0 +1,181 @@
+/*-----------------Sidebar Left--------------------*/
+.sidebar {
+    position: fixed;
+    z-index: 1000;
+    width: 280px;
+    height: 100%;
+    border-right: 1px solid rgba(0,0,0,.0625);
+    background-color: white;
+    transition: all 0.2s;
+}
+.sidebar-logo {
+    padding: 0 30px;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    white-space: nowrap;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+.inner-logo-header {
+    display: flex;
+}
+.img-brand {
+    min-height: 74px;
+}
+.name-brand {
+    width: 100%;
+    padding: 25px 0;
+}
+h5 {
+    margin: 0;  
+}
+.first-li {
+    margin-top: 30px;
+}
+.list-sidebar {
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden!important;
+}
+.icon {
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 17px;
+    height: 35px;
+    left: 0;
+    line-height: 35px;
+    margin-right: 14px;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease;
+    width: 35px;
+}
+.icon-des {
+    color: #72777a;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 15px;
+    position: relative;
+}
+.icon-des:hover {
+    color: black;
+}
+.fa-user-secret {
+    color: black;
+}
+.fa-users {
+    color: blueviolet;
+}
+.fa-lightbulb {
+    color: yellowgreen;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.list-sidebar>li>a {
+    white-space: nowrap;
+}
+/*------------------------------------------------------*/
+/*-----------------Header Navigation--------------------*/
+.page-container {
+    padding-left: 280px;
+    min-height: 100vh;
+    transition: all .2s ease;
+}
+.header-container {
+    background-color: #fff;
+    height: 75px;
+    margin-bottom: 0;
+    padding: 0;
+    position: fixed;
+    width: calc(100% - 280px);
+    z-index: 800;
+    border-bottom: 1px solid rgba(0,0,0,.0625);
+    transition: all 0.2s; 
+}
+.header {
+    width: 100%;
+    height: 100%;
+}
+.header-left {
+    display: flex;
+    float: left;
+    margin-left: 15px;
+}
+.icon-header {
+    padding: 22px 20px;
+    margin: 0;
+}
+.hidden-icon {
+    position: absolute;
+    font-size: 24px;
+    top: 16px;
+    opacity: 0;
+}
+.search-input {
+    margin-bottom: 0;
+    opacity: 0;
+}
+
+.header-right {
+    display: flex;
+    height: 69px;
+    float: right;
+}
+.dropdown {
+    display: flex;
+}
+.icon-header-user {
+    padding: 20px 14px;
+}
+.img-ava {
+    width: 30px;
+    height: 30px;
+    border-radius: 1em;
+}
+.user-name {
+    padding: 3px 5px;
+}
+i {
+    cursor: pointer;
+}
+.form-control1 {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline: none;
+    padding: 5px;
+}
+a:hover {
+    text-decoration: none;
+}
+/*---------------------Click bars--------------------*/
+body .sidebar-close {
+    width: 70px;
+}
+.hidden-text {
+    display: none;
+}
+body .page-content-large {
+    padding-left: 70px;
+}
+body .header-large {
+    width: calc(100% - 70px);
+}
+.sidebar-logo-close {
+    padding: 0;
+}
+/*---------------------Click Search--------------------*/
+.search-open {
+    opacity: 1;
+}
+
+/*-----------------------Content------------------------*/
+.main-contain {
+    padding: 85px 20px 20px;
+    min-height: 100vh;
+}

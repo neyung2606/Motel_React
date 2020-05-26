@@ -1,0 +1,88 @@
+.wrapper {
+    background-image: url('../../image/login-bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.login {
+    position: relative;
+    width: 500px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 64px 55px;
+    border-radius: 1rem;
+}
+form {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.input {
+    position: relative;
+    padding-bottom: 20px;
+    display: block;
+}
+.text {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    padding-left: 7px;
+}
+input {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.2;
+    width: 91%;
+    height: 55px;
+    border: none;
+    padding-left: 40px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.i-login {
+    position: absolute;
+    font-size: 25px;
+    top: 1.6em;
+    left: 0.4em;
+}
+.getPass {
+    width: 100%;
+    text-align: right;
+    padding-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+.forget:hover {
+    color: #a64bf4
+}
+.button-form {
+    text-align: center;
+    background: -webkit-linear-gradient(right,#00dbde,#fc00ff,#00dbde,#fc00ff);
+    border-radius: 1rem;
+}
+.button-form:hover {
+    background-color: #fc00ff;
+}
+.submit {
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
